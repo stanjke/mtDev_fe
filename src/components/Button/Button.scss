@@ -1,0 +1,29 @@
+.button {
+  border: none;
+  border-radius: 4px;
+  padding: 3px 8px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  &--lightGray {
+    background-color: rgb(212, 212, 212);
+  }
+
+  &--darkGray {
+    background-color: rgb(31, 31, 31);
+    color: white;
+  }
+
+  &--blue {
+    background-color: lightblue;
+  }
+
+  &--icon {
+    background-color: transparent;
+  }
+
+  &:hover {
+    transition: all 0.3s;
+    background-color: rgba(245, 245, 245, 0.247);
+  }
+}

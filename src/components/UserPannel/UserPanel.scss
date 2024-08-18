@@ -1,0 +1,15 @@
+.header {
+  &__account-panel {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__user-panel-container {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,13 @@
+@import "./design/index";
+
+.icon {
+  &--white {
+    fill: white;
+    color: white;
+  }
+
+  &--dark {
+    fill: black;
+    color: white;
+  }
+}

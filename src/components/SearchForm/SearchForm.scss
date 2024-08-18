@@ -1,0 +1,35 @@
+.header {
+  &__search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  &__search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(236, 236, 236);
+    &:focus,
+    &:active {
+      outline: none;
+      transition: all 0.3s;
+      background-color: #fff;
+      border-color: #007bff;
+    }
+  }
+
+  &__search-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
